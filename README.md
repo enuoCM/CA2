@@ -7,7 +7,8 @@ Practice Sample: [DE-MVP-Clean](https://github.com/enuoCM/DE-MVP-Clean)
 How to use?
 -----------
 Import on gradle using:
-    allprojects {
+
+        allprojects {
     		repositories {
     			...
     			maven { url 'https://jitpack.io' }
