@@ -24,7 +24,15 @@ import com.xixicm.ca.domain.util.Logger;
  * @author mc
  */
 public class AndroidLogger implements Logger {
-    private static final boolean LOGGABLE = BuildConfig.DEBUG;
+    private boolean LOGGABLE;
+
+    public AndroidLogger() {
+        LOGGABLE = BuildConfig.DEBUG;
+    }
+
+    public AndroidLogger(boolean loggable) {
+        LOGGABLE = loggable;
+    }
 
     @Override
     public void v(String tag, String msg) {
