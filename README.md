@@ -16,6 +16,6 @@ Import on gradle using:
     	}
 
 	dependencies {
-	         compile 'com.github.enuoCM:CA:1.0.0'
+	         implementation 'com.github.enuoCM:CA2:v1.1.2'
 	}
 
