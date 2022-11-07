@@ -3,7 +3,7 @@ package com.xixicm.ca.presentation.view.component;
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v7.widget.AppCompatTextView;
+import androidx.appcompat.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
 public class ColorFreezeTextView extends AppCompatTextView {

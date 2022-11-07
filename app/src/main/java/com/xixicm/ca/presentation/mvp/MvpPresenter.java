@@ -15,7 +15,7 @@
  */
 package com.xixicm.ca.presentation.mvp;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Every presenter in the app must either implement this interface or extend

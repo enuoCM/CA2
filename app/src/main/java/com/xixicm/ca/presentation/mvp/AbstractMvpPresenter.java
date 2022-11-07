@@ -15,7 +15,7 @@
  */
 package com.xixicm.ca.presentation.mvp;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Base class that implements the MvpPresenter interface and provides a base implementation
